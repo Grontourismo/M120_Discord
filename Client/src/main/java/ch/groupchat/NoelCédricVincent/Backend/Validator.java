@@ -10,7 +10,7 @@ public class Validator {
     }
 
     private void validatePwd(String msg, String pwd) {
-        if(pwd.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$")){
+        if(pwd.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,}$")){
 
         }else{
             msg = "Password does not comply with the password rules";
