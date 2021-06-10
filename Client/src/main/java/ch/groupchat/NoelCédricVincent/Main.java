@@ -11,7 +11,6 @@ public class Main extends Application {
         UIManager.primaryStage = primaryStage;
         UIManager.secondaryStage = new Stage();
         UIManager.login();
-
     }
 
     public static void main(String[] args) {
