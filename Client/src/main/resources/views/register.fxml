@@ -5,7 +5,9 @@
 
 <AnchorPane prefHeight="181.0" prefWidth="207.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.groupchat.NoelCédricVincent.Frontend.Controller.RegisterController">
    <children>
-      <TextField fx:id="usernameTb" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="177.0" promptText="Username" />
+      <TextField fx:id="usernameTb" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="177.0" promptText="Username">
+         <tooltip><Tooltip text="Username can only contain a-Z, 0-9 and _"/></tooltip>
+      </TextField>
       <TextField fx:id="emailTb" layoutX="14.0" layoutY="50.0" prefHeight="25.0" prefWidth="177.0" promptText="Email" />
       <PasswordField fx:id="pwdTb" layoutX="14.0" layoutY="85.0" prefHeight="25.0" prefWidth="177.0" promptText="Password" >
          <tooltip><Tooltip text="At least 8 chars | Contains at least one digit | Contains at least one lower alpha char and one upper alpha char | Does not contain space, tab, etc."/></tooltip>
